@@ -223,6 +223,19 @@ export default async function ProfilePage({
           </a>
         )}
       </section>
+
+      {/* Subtle kudo CTA */}
+      <p className="mt-10 text-xs text-gray-400">
+        Worked with {profile.name.split(' ')[0]}?{' '}
+        <a
+          href={`https://tally.so/r/44z2gO?recipient=${profile.slug}`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-gray-600"
+        >
+          Add a kudo.
+        </a>
+      </p>
     </div>
   )
 }

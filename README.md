@@ -8,11 +8,11 @@ This site is not affiliated with Aeroseal, LLC. It's run by alumni, for alumni, 
 
 ## For recruiters and hiring managers
 
-Browse the [main directory](/) and filter by role, location, or what kind of work each person is looking for. Hit the contact button on any profile to send a message — it routes through a relay so contact info stays private.
+Browse the [main directory](https://aeroseal-alumni-talent-board.vercel.app/) and filter by role, location, or what kind of work each person is looking for. Hit the contact button on any profile to send a message — it routes through a relay so contact info stays private.
 
 ## For impacted Aeroseal teammates
 
-Want to be listed? See [CONTRIBUTING.md](./CONTRIBUTING.md). Opt-in is explicit, you control your own page, and you can ask to be removed at any time.
+Want to be listed? Fill out the opt-in form at **https://tally.so/r/PdkA4P** — it takes about 10 minutes and nothing goes live without your approval. See [CONTRIBUTING.md](./CONTRIBUTING.md) for the full details and the technical path if you prefer to send a PR directly.
 
 ## For maintainers
 

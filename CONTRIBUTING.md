@@ -4,7 +4,7 @@ There are two ways to get on the board. Both are opt-in.
 
 ## The easy way (recommended)
 
-Fill out the opt-in form: **[link to be added]**
+Fill out the opt-in form: **https://tally.so/r/PdkA4P**
 
 You'll be asked for:
 - Name, headline, location, optional photo

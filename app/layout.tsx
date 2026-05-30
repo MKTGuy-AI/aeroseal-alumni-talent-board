@@ -23,8 +23,8 @@ export default function RootLayout({
         <main>{children}</main>
         <footer className="border-t border-gray-200 px-6 py-6 text-sm text-gray-500">
           <p>
-            This is an alumni-led initiative and is not an official Aeroseal
-            property.
+            Alumni-led. Not an official Aeroseal property. Maintained by David
+            Koerner.
           </p>
         </footer>
       </body>
