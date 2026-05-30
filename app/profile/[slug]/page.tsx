@@ -2,6 +2,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { getProfiles, getProfile } from '@/lib/profiles'
 import Avatar from '@/components/Avatar'
+import ContactButton from '@/components/ContactButton'
 
 export function generateStaticParams() {
   return getProfiles().map((p) => ({ slug: p.slug }))
@@ -56,6 +57,10 @@ export default async function ProfilePage({
           Looking for
         </h2>
         <p className="mt-2 text-gray-700 leading-relaxed">{profile.lookingFor}</p>
+        <ContactButton
+          profileName={profile.name}
+          profileSlug={profile.slug}
+        />
       </section>
 
       {/* Bio */}

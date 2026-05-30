@@ -14,7 +14,7 @@ We do **not** publish:
 
 ## How "contact this person" works
 
-The contact button on every profile opens a form. Messages route through a third-party relay (Formspree) to the profile owner's email. The recipient's address is never exposed in HTML. The relay is rate-limited to discourage scraping and spam.
+Messages route through a third-party relay (Formspree) and are reviewed by the maintainer before being forwarded to the profile owner. No alum email addresses are stored in the public site. The contact button collects the sender's name, email, and message — nothing else. The maintainer's forward is manual, which adds a layer of review before any recruiter message reaches a listed alum.
 
 ## Cookies and tracking
 
