@@ -25,11 +25,11 @@ When in doubt about a UI choice, prefer "fewer clicks, less chrome, recruiter ca
 
 ```yaml
 ---
-slug: jane-doe                          # required, kebab-case, becomes URL
-name: Jane Doe                           # required
+slug: jane-smith                         # required, kebab-case, becomes URL
+name: Jane Smith                         # required
 headline: Senior Mechanical Engineer     # required, one line
 location: Dayton, OH                     # required
-photo: /photos/jane-doe.jpg              # optional
+photo: /photos/jane-smith.jpg            # optional
 placed: false                            # required, flips to true when hired
 placedAt: null                           # optional, "Acme Corp" once placed
 lookingFor: |                            # required, 1-2 sentences in their voice
@@ -41,7 +41,7 @@ roles:                                   # required, most recent first
     dates: 2021–2026
 skills:                                  # required, 3-8 entries
   - name: SolidWorks
-    evidence: /profile/jane-doe#duct-fitting-redesign  # optional internal anchor or external link
+    evidence: /profile/jane-smith#duct-fitting-redesign  # optional internal anchor or external link
   - name: DOE / Six Sigma
 projects:                                # required, 2-5 entries
   - title: Duct fitting redesign
@@ -60,10 +60,10 @@ managerNote:                             # optional, but a huge differentiator
     Jane is in the top 5% of engineers I've worked with in 20 years.
     Any team would be lucky to have her.
 links:
-  linkedin: https://linkedin.com/in/janedoe
+  linkedin: https://linkedin.com/in/janesmith
   github: null
-  portfolio: https://janedoe.dev
-  resume: /resumes/jane-doe.pdf          # optional, stored in /public/resumes
+  portfolio: https://janesmith.dev
+  resume: /resumes/jane-smith.pdf        # optional, stored in /public/resumes
 contact: relay                            # "relay" routes through Formspree; never publish raw email
 ---
 
@@ -96,7 +96,7 @@ Optional long-form bio paragraph(s) in MDX go here.
   ContactButton.tsx           opens relay modal
 /content/profiles/
   _template.mdx               canonical empty template (do not deploy)
-  jane-doe.mdx                example (delete before launch)
+  jane-smith.mdx              example (delete before launch)
 /lib
   profiles.ts                 loads + validates all MDX at build time
   search.ts                   Fuse.js index builder

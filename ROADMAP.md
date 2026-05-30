@@ -17,10 +17,10 @@ Ordered build plan. Each milestone is small enough to finish in one Claude Code 
 1. Create `lib/profiles.ts`. Load every `.mdx` file from `/content/profiles/`, parse frontmatter with `gray-matter`, validate against the schema in CLAUDE.md, and export a typed `Profile[]`.
 2. Skip files starting with `_` (so `_template.mdx` isn't shipped).
 3. Build `app/profile/[slug]/page.tsx` with `generateStaticParams` driven by the profile list.
-4. Render every field from the data model. Use the example profile (`content/profiles/jane-doe.mdx`) as the test case.
+4. Render every field from the data model. Use the example profile (`content/profiles/jane-smith.mdx`) as the test case.
 5. Add basic Tailwind styling — readable typography, max-width container, photo top-left.
 
-**Done when:** `/profile/jane-doe` renders all fields cleanly.
+**Done when:** `/profile/jane-smith` renders all fields cleanly.
 
 ## Milestone 3 — Landing grid and filters
 
@@ -38,7 +38,7 @@ Ordered build plan. Each milestone is small enough to finish in one Claude Code 
 3. `app/api/contact/route.ts`: POSTs to Formspree. Rate-limited via Vercel's built-in IP throttle if needed.
 4. `<ContactButton>`: opens a modal with name / email / message, hits the relay, never reveals the recipient's address.
 
-**Done when:** a recruiter can hit "Contact Jane" and Jane gets an email through Formspree without her address being in the HTML.
+**Done when:** a recruiter can hit "Contact Jane Smith" and Jane gets an email through Formspree without her address being in the HTML.
 
 ## Milestone 5 — Polish and pre-launch checks
 
